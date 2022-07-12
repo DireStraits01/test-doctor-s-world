@@ -2,7 +2,7 @@ let items = document.querySelectorAll('.circular')
 const itemsLength = 8
 
 const arc = 2 * Math.PI * (1 / itemsLength)
-const radius = 50
+const radius = 68
 console.log(arc)
 for (let i =0; i < itemsLength; i++){
     const angle = i * arc;

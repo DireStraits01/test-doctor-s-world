@@ -6,8 +6,13 @@
 
 body{
     
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 247, 252, 0.583333) 25.87%, #CAF2FA 100%) no-repeat;
-    background: 100vh;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 247, 252, 0.583333) 25.87%, #CAF2FA 100%) no-repeat;
+    background: 100vh; */
+    background-color: antiquewhite;
+}
+
+main{
+ 
 }
 
 .item1{
@@ -59,12 +64,6 @@ body{
 }
 
 
-.circular-menu{
-    position: relative;
-    height: 400px;
-    width: 400px;
-}
-
 .circular{
     position: absolute;
     top: 50%;
@@ -73,7 +72,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: '';
   
 }
 
@@ -84,4 +82,48 @@ body{
     transform: translate(0%, 0%);
     width: 41px;
     height: 41px;
+ }
+
+ .adult-img{
+    background: url(/images/adult.png);
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .circular-menu{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+
+ .head{
+    background-color: blueviolet;
+    text-align: center;
+
+  
+ }
+
+ .column{
+    background-color: azure;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 89px;
+    flex-basis: 100%;
+ }
+
+
+ .column-item {
+    text-align: center;
+    flex-basis: 50%;
+  
+ }
+ .content p{
+    margin: 31px, 36px;
  }
