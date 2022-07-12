@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-circular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.circular-menu{
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.circul-ittem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+ 
+}
+
+.img-circul{
+    position: relative;
+}
+
+.img-x{
+    position: absolute;
+    width: 45px;
+    top: -8%;
+    left: -10%;
+    z-index: 2;
+}
