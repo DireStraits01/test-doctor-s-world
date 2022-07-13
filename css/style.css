@@ -1,38 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-size: cover;
     background-image: -webkit-gradient (180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
     background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
     background-image: -html-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
-    background-image: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%) ;
+    background-image: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
     background-image: -ms-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
     background-image: -o-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
 
 }
 
-.head{
+.head {
     text-align: center;
- }
+}
 
-.head h3{
+.head h3 {
     font-family: 'Roboto', sans-serif;
-    font-style:Black;
+    font-style: Black;
     line-height: 50px;
     line-height: 107%;
     font-size: 40px;
     align-items: center;
     vertical-align: top;
-    color:#223867;
-    margin-top: 34px;      
+    color: #223867;
+    margin-top: 34px;
 }
 
-.head h4{
+.head h4 {
     font-family: 'Roboto', sans-serif;
     font-style: Bold;
     font-size: 36px;
@@ -40,19 +40,20 @@ body{
     line-height: 128%;
     align-items: center;
     vertical-align: top;
-    color:#223867;
+    color: #223867;
 }
 
-.column{
+.column {
     margin-top: 116px;
     display: flex;
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 89px;
     flex-basis: 100%;
- }
+}
 
- .column h3, .circul-img p{
+.column h3,
+.circul-img p {
     font-family: 'Roboto', sans-serif;
     font-style: Bold;
     font-size: 30px;
@@ -60,44 +61,46 @@ body{
     line-height: 100%;
     align-items: center;
     vertical-align: top;
-    color:#028CA6;
- }
+    color: #028CA6;
+}
 
- .column img{
+.column img {
     height: 300px;
     width: 300px;
     cursor: pointer;
- 
- }
- .column-item {
+
+}
+
+.column-item {
     text-align: center;
     flex-basis: 50%;
-  
- }
- .column-item p {
+
+}
+
+.column-item p {
     font-family: 'Roboto', sans-serif;
-    font-style:Regular;
+    font-style: Regular;
     font-size: 21px;
     line-height: 110%;
     line-height: 27px;
     text-align: left;
     vertical-align: top;
-    border: 2px solid  #068CA6;
+    border: 2px solid #068CA6;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.7); 
-    box-shadow:  0px 4px 4px  rgba(6, 140, 166, 0.31);
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
     margin: 31px 36px;
     width: 578px;
-    color:#223867
- }
+    color: #223867
+}
 
-.adult{
+.adult {
     padding: 23px 25px;
 }
 
- .kid {
+.kid {
     padding: 16px 25px;
- }
+}
 
 .text {
     font-family: 'Roboto', sans-serif;
@@ -109,7 +112,7 @@ body{
     margin-top: 92px;
 }
 
-.text span{
+.text span {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -118,6 +121,6 @@ body{
     color: rgba(6, 140, 166, 1)
 }
 
-.wrapper-content{
-   height: 600px;
+.wrapper-content {
+    height: 600px;
 }

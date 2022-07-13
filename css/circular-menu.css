@@ -1,48 +1,48 @@
-.item1{
-    
-    background:url(/images/img1.png) no-repeat;
+.item1 {
+
+    background: url(/images/img1.png) no-repeat;
     background-position-y: center;
 
 }
 
-.item2{
+.item2 {
     background: url(/images/img2.png) no-repeat;
 
 }
 
-.item3{
+.item3 {
     background: url(/images/img3.png) no-repeat;
 
 }
 
-.item4{
+.item4 {
     background: url(/images/img4.png) no-repeat;
 
 }
 
-.item5{
+.item5 {
     background: url(/images/img5.png) no-repeat;
 
 }
 
-.item6{
+.item6 {
     background: url(/images/img6.png) no-repeat;
 
 }
 
-.item7{
+.item7 {
     background: url(/images/img7.png) no-repeat;
 
 }
 
-.item8{
+.item8 {
     background: url(/images/img8.png) no-repeat;
     background-position-y: center;
 
 }
 
 
-.circular{
+.circular {
     position: absolute;
     height: 115px;
     width: 117px;
@@ -53,48 +53,50 @@
 
 }
 
-.x-image{
+.x-image {
     position: absolute;
     top: -28%;
     left: -25%;
     /* transform: translate(0%, 0%); */
- }
+}
 
- .circul-img{
+.circul-img {
     position: absolute;
     width: 315px;
     height: 315px;
     border-radius: 50%;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     filter: opacity(60%);
 }
-.adult-img{
-  
-    background: url(/images/Group\ 79.png);
- }
- 
- .kid-img{
-    background: url(/images/kid.png);
- }
 
- .circular-menu{
+.adult-img {
+
+    background: url(/images/Group\ 79.png);
+}
+
+.kid-img {
+    background: url(/images/kid.png);
+}
+
+.circular-menu {
     position: relative;
     height: 450px;
     width: 450px;
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -70%);
-    
+
 }
 
-.circul-img p{
+.circul-img p {
     transform: translate(30%, 800%);
 
     color: rgba(6, 140, 166, 1);
     font-weight: bold;
- 
+
 }
+
 /* text cursor______________________*/
 
 .item1 .item1-text {
@@ -232,4 +234,3 @@
 .item8:hover .item8-text {
     visibility: visible;
 }
-
