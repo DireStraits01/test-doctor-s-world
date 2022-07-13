@@ -212,7 +212,7 @@ body{
     height: 450px;
     width: 450px;
     left: 50%; 
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -70%);
     
 }
 
@@ -225,5 +225,5 @@ body{
 }
 
 .wrapper-content{
-   height: 700px;
+   height: 600px;
 }
