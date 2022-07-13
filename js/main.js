@@ -21,10 +21,11 @@ const patientImage = document.querySelector('.circul-img')
 const patientText = patientImage.querySelector('p')
 
 patient.addEventListener('click', function(event){
+    patientText.textContent = '' 
     if (event.target.dataset.image == 'adult')
     {patientImage.classList.add('adult-img')
     patientImage.classList.remove('kid-img') 
-    patientText.textContent = 'Взрослый'   
+    patientText.textContent = '' 
 }
     else if(event.target.dataset.image == 'kid')
     {patientImage.classList.add('kid-img')

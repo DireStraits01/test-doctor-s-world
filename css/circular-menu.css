@@ -1,0 +1,235 @@
+.item1{
+    
+    background:url(/images/img1.png) no-repeat;
+    background-position-y: center;
+
+}
+
+.item2{
+    background: url(/images/img2.png) no-repeat;
+
+}
+
+.item3{
+    background: url(/images/img3.png) no-repeat;
+
+}
+
+.item4{
+    background: url(/images/img4.png) no-repeat;
+
+}
+
+.item5{
+    background: url(/images/img5.png) no-repeat;
+
+}
+
+.item6{
+    background: url(/images/img6.png) no-repeat;
+
+}
+
+.item7{
+    background: url(/images/img7.png) no-repeat;
+
+}
+
+.item8{
+    background: url(/images/img8.png) no-repeat;
+    background-position-y: center;
+
+}
+
+
+.circular{
+    position: absolute;
+    height: 115px;
+    width: 117px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.x-image{
+    position: absolute;
+    top: -28%;
+    left: -25%;
+    /* transform: translate(0%, 0%); */
+ }
+
+ .circul-img{
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    filter: opacity(60%);
+}
+.adult-img{
+  
+    background: url(/images/Group\ 79.png);
+ }
+ 
+ .kid-img{
+    background: url(/images/kid.png);
+ }
+
+ .circular-menu{
+    position: relative;
+    height: 450px;
+    width: 450px;
+    left: 50%; 
+    transform: translate(-50%, -70%);
+    
+}
+
+.circul-img p{
+    transform: translate(30%, 800%);
+
+    color: rgba(6, 140, 166, 1);
+    font-weight: bold;
+ 
+}
+/* text cursor______________________*/
+
+.item1 .item1-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: left;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(100%, 10%);
+}
+
+.item1:hover .item1-text {
+    visibility: visible;
+}
+
+.item2 .item2-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: left;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(100%, 10%);
+}
+
+.item2:hover .item2-text {
+    visibility: visible;
+}
+
+.item3 .item3-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: left;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(100%, 10%);
+}
+
+.item3:hover .item3-text {
+    visibility: visible;
+}
+
+.item4 .item4-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: center;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(10%, 170%);
+}
+
+.item4:hover .item4-text {
+    visibility: visible;
+}
+
+.item5 .item5-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: right;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(-110%, 10%);
+}
+
+.item5:hover .item5-text {
+    visibility: visible;
+}
+
+.item6 .item6-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: right;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(-110%, 10%);
+}
+
+.item6:hover .item6-text {
+    visibility: visible;
+}
+
+.item7 .item7-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: right;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(-110%, 30%);
+}
+
+.item7:hover .item7-text {
+    visibility: visible;
+}
+
+.item8 .item8-text {
+    visibility: hidden;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    line-height: 22px;
+    line-height: 104%;
+    text-align: center;
+    vertical-align: top;
+    z-index: 1;
+    transform: translate(40%, -160%);
+}
+
+.item8:hover .item8-text {
+    visibility: visible;
+}
+
