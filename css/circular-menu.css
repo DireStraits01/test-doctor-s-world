@@ -1,42 +1,42 @@
 .item1 {
 
-    background: url(images/img1.png) no-repeat;
+    background: url(/images/img1.png) no-repeat;
     background-position-y: center;
 
 }
 
 .item2 {
-    background: url(images/img2.png) no-repeat;
+    background: url(/images/img2.png) no-repeat;
 
 }
 
 .item3 {
-    background: url(images/img3.png) no-repeat;
+    background: url(/images/img3.png) no-repeat;
 
 }
 
 .item4 {
-    background: url(images/img4.png) no-repeat;
+    background: url(/images/img4.png) no-repeat;
 
 }
 
 .item5 {
-    background: url(images/img5.png) no-repeat;
+    background: url(/images/img5.png) no-repeat;
 
 }
 
 .item6 {
-    background: url(images/img6.png) no-repeat;
+    background: url(/images/img6.png) no-repeat;
 
 }
 
 .item7 {
-    background: url(images/img7.png) no-repeat;
+    background: url(/images/img7.png) no-repeat;
 
 }
 
 .item8 {
-    background: url(images/img8.png) no-repeat;
+    background: url(/images/img8.png) no-repeat;
     background-position-y: center;
 
 }
