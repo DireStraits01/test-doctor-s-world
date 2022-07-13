@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-image-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <title>CMAt</title>
 </head>
+
 <body>
-<main>
     <div class="head">
-                <h1>А вдруг СМА</h1>
-            <h3>Выберите, кто Ваш пациент:</h3>
+        <h3>А вдруг СМА</h3>
+        <h4>Выберите, кто Ваш пациент:</h4>
     </div>
 
     <div class="column">
-                <div class="column-item">
-                    <h3>Взрослый</h3>
-                
-                     <img src="/images/adult.png" alt="">
-               
-                    <p>Менее тяжелые формы СМА могут возникать и диагностироваться в зрелом возрасте. </p>
-                    <p>По сравнению с СМА у детей, СМА у взрослых может иметь более легкие симптомы, но
-                         без патогенетической терапии пациенты со СМА 2-3 типа неуклонно теряют
-                          двигательные навыки. 
-                    </p>
-                    <p>По сравнению с СМА в детстве, течение СМА у взрослых может быть более коварным и
-                         трудным для распознавания. </p>
-                </div>
-        
-            <div class="column-item">
-                <h3>ребенок</h3>
-                <img src="/images/kid.png" alt="">
-         
-        
-                <p>Ребенок, плохо удерживающий голову, когда ему придают сидячее положение, с вялыми
-                    движениями нижних конечностей или с трудом тянущийся к предметам, но при этом с
-                    осмысленным и ярким взглядом, улыбающийся и социально активный, вызывает настороженность
-                    в отношении наличия СМА.
-                </p>
-                <p>Младенцам со СМА необходимо экстренное направление к специалисту, ранняя диагностика и обеспечение
-                    терапией, спасающей жизнь, поскольку эти мотонейроны очень быстро подвергаются
-                    дегенерации при прогрессировании заболевания</p>
-            </div>
+        <div class="column-item">
+            <h3 class="column-adult-h3">Взрослый</h3>
+
+            <img data-image="adult" src="/images/adult.png" alt="">
+
+            <p class="adult">Менее тяжелые формы СМА могут возникать и диагностироваться в зрелом возрасте. </p>
+            <p class="adult">По сравнению с СМА у детей, СМА у взрослых может иметь более легкие симптомы, но
+                без патогенетической терапии пациенты со СМА 2-3 типа неуклонно теряют
+                двигательные навыки. 
+            </p class="=adult">
+            <p class="adult">По сравнению с СМА в детстве, течение СМА у взрослых может быть более коварным и
+                трудным для распознавания. </p>
+        </div>
+
+        <div class="column-item">
+            <h3 class="kid-item-h3"> Ребенок</h3>
+            <img data-image="kid" src="/images/kid.png" alt="">
+
+
+            <p class="kid">Ребенок, плохо удерживающий голову, когда ему придают сидячее положение, с вялыми
+                движениями нижних конечностей или с трудом тянущийся к предметам, но при этом с
+                осмысленным и ярким взглядом, улыбающийся и социально активный, вызывает настороженность
+                в отношении наличия СМА.
+            </p>
+            <p class="kid">Младенцам со СМА необходимо экстренное направление к специалисту, ранняя диагностика и
+                обеспечение
+                терапией, спасающей жизнь, поскольку эти мотонейроны очень быстро подвергаются
+                дегенерации при прогрессировании заболевания</p>
+        </div>
+    </div>
+
+    <div class="wrapper-content">
+        <p class="text">Сообщает ли один из ваших пациентов о следующих симптомах? <span> (нажмите на любую иконку и
+                узнайте больше)</span></p>
     </div>
 
     <div class="circular-menu">
-            <div class="circular item2"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item3"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item4"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item5"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item6"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item7"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item8"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="circular item1"><img class="x-image" src="images/x.png" alt=""></div>
-            <div class="adult-img"></div>
+        <div class="circular item2"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item3"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item4"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item5"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item6"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item7"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item8"><img class="x-image" src="images/x.png" alt=""></div>
+        <div class="circular item1"><img class="x-image" src="images/x.png" alt=""></div>
+
+
+        <div class="circul-img adult-img">
+            <p>
+                Взрослый
+            </p>
+        </div>
     </div>
 
 
 
-                
-              
-       
-</main>
+
     <script src="/js/main.js"></script>
 </body>
+
 </html>
